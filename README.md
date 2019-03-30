@@ -5,20 +5,8 @@ Darabase server — SQL Server.
 Client— WPF or console.
 Server — WCF.
 2. Objects:
-2.1 Account:
-Account ID 
-Surname
-Name
-Patronymic
-Birthday
-Balance
-2.2. Rate:
-Rate ID 
-Rate date
-The sum of the bet
-Rate coefficient
-Result
-The winning amount
+2.1 Account: Account ID, Surname, Name, Patronymic, Birthday, Balance.
+2.2. Rate: Rate ID, Rate date, The sum of the bet, Rate coefficient, Result, The winning amount.
 3) There are four types of bets.
 1. Normal — rate on a separate outcome of the event. The win on a single bet is equal to the product of the bet amount on the coefficient set for this outcome.
 2. Express is a rate on some independent outcomes of events. Winning on the Express is equal to the product of the bet amount on the coefficients of all outcomes included in the Express.
